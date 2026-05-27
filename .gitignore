@@ -1,0 +1,90 @@
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### Windows ###
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+### Gradle ###
+.gradle/
+build/
+gradle-app.setting
+!gradle-wrapper.jar
+
+### Spring Boot ###
+*.properties
+*.yml
+!application.properties
+!application.yml
+!application-*.properties
+!application-*.yml
+
+### Logs ###
+*.log
+logs/
+
+### Database ###
+*.db
+*.sqlite
+*.sqlite3
+
+### Environment ###
+.env
+.env.local
+.env.*
+
+### Node (if any frontend) ###
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+.next/
+
+### Docker ###
+.dockerignore
+docker-compose.override.yml
